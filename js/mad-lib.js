@@ -7,8 +7,8 @@ $(document).ready(function(){
     $(".emotion").text($("input#emotion").val());
     $(".groupOfPeople1").text($("input#groupOfPeople1").val());
 
-    $("#story").show();
-    $(event).preventDefault();
+    $("#mad-lib").show();
+    event.preventDefault();
 
   });
 });
