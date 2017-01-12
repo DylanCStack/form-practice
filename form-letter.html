@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/form-letter.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/form-letter.js"></script>
+    <title>A fateful meeting</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in your details to get your letter.</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="from">Your company or name</label>
+            <input id="from" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="fromAddress1">Your address line 1</label>
+            <input id="fromAddress1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="fromAddress2">Your address line 2</label>
+            <input id="fromAddress2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="date">Today's date</label>
+            <input id="date" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="to">Name of recieving company or individual</label>
+            <input id="to" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="toName">Specific name of recipient</label>
+            <input id="toName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="toAddress1">Recipient address line 1</label>
+            <input id="toAddress1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="toAddress2">Recipient address line 2</label>
+            <input id="toAddress2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="fromName">Sender's name</label>
+            <input id="fromName" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-info">Submit!</button>
+        </form>
+      </div>
+
+      <div id="letter">
+        <p><span class="from"></span></p>
+        <p><span class="fromAddress1"></span></p>
+        <p><span class="fromAddress2"></span></p>
+        <p><span class="date"></span></p>
+        <p><span class="to"></span></p>
+        <p>Dear <span class="toName"></span>,</p>
+        <p>Lorem ipsum dolor sit amet, et mi eu, amet ut nulla. Volutpat nec metus sodales, luctus dui viverra, nisl lacinia, eget orci nec. Vestibulum nonummy orci a montes, eros fermentum in in aenean viverra. Lobortis erat egestas vestibulum, donec porttitor leo, molestie sit. Fermentum praesent ut dictumst in, sit interdum vitae volutpat erat sollicitudin fusce, libero adipiscing, felis nibh duis wisi, purus maecenas potenti at aenean. Ante sed sed adipiscing, augue rutrum sit nec commodo, massa vestibulum dui wisi metus turpis tristique.</p>
+        <p>Vehicula sit maecenas turpis diam, eget praesent massa et duis sed, dolor sapien quis sapien in, velit nisl amet ullamcorper dapibus platea sed, justo sollicitudin ut. Per hendrerit cillum hendrerit provident, curabitur ipsum accumsan id orci, et et dictumst consequat. Enim sociis ultricies, sagittis tincidunt aliquam class, sed etiam convallis lacus blandit. Et turpis, nullam sed aenean vestibulum vitae, consectetuer aliquet vestibulum et fusce dapibus, in justo euismod mi tortor sed, nostrud egestas quis id ut pretium. Cras vitae sapien tincidunt volutpat, mauris praesent vivamus condimentum cursus nibh aptent. Sem nonummy sit, molestie maecenas ipsum convallis pellentesque etiam, semper consequat, iaculis ac mauris, congue turpis mollis condimentum semper inceptos in. Consectetuer morbi massa maecenas.</p>
+        <p><span class="toAddress1"></span></p>
+        <p><span class="toAddress2"></span></p>
+        <p><span class="fromName"></span></p>
+      </div>
+
+    </div>
+  </body>
+</html>
