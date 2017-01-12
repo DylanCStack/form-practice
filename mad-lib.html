@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/mad-lib.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/mad-lib.js"></script>
+    <title>A fateful meeting</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to generate a story!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="groupOfPeople1">A group of people</label>
+            <input id="groupOfPeople1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="pluralNoun1">A plural noun</label>
+            <input id="pluralNoun1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="groupOfPeople2">Another group of people</label>
+            <input id="groupOfPeople2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="pluralNoun2">Another plural noun</label>
+            <input id="pluralNoun2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="emotion">An emotion</label>
+            <input id="emotion" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-info">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="mad-lib">
+        <h1>In the beginning...</h1>
+        <p>In the beginning there were only <span class="pluralNoun1"></span> and <span class="groupOfPeople1"></span>,it was very uneventful. One day <span class="groupOfPeople2"></span> appeared, and with them they brought <span class="pluralNoun2"></span>. The <span class="groupOfPoeple1"></span> were confused at first. Then they quickly became <span class="emotion"></span>. The <span class="groupOfPeople2"></span> used this <span class="emotion"></span> to build an everlasting bond with <span class="groupOfPeople1"></span>. The two groups lived happily ever after, needing nothing more than their <span class="pluralNoun1"></span> and their <span class="pluralNoun2"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
